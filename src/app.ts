@@ -1,7 +1,11 @@
 import express from 'express';
-import { Article } from './@core/types/types'
+import cors from 'cors';
+
+import { Article } from './@core/types/types';
 
 const app = express();
+
+app.use(cors());
 
 app.get('/', (req, res, next) => {
   res.send('ok');
@@ -19,7 +23,7 @@ app.get('/api/articles', (req, res, next) => {
     },
   ];
 
-  res.send({ articles });
+  res.send(articles);
 });
 
 app.listen(3030, () => {
