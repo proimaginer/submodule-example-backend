@@ -16,10 +16,12 @@ app.get('/api/articles', (req, res, next) => {
     {
       id: 141,
       content: '첫번째 게시글',
+      created_at: new Date(),
     },
     {
       id: 145,
       content: '두번째 게시글',
+      created_at: new Date(),
     },
   ];
 
