@@ -1,8 +1,8 @@
 {
-  "name": "submodule-user",
+  "name": "submodule-example-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:proimaginer/submodule-user.git",
+  "repository": "git@github.com:proimaginer/submodule-example-backend.git",
   "author": "이정준 <jungjoon.lee@medistream.co.kr>",
   "license": "MIT",
   "dependencies": {
