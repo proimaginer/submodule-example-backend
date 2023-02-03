@@ -15,11 +15,13 @@ app.get('/api/articles', (req, res, next) => {
   const articles: Article[] = [
     {
       id: 141,
+      title: '첫번째 제목',
       content: '첫번째 게시글',
       created_at: new Date().toISOString(),
     },
     {
       id: 145,
+      title: '두번째 제목',
       content: '두번째 게시글',
       created_at: new Date().toISOString(),
     },
