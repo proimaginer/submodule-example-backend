@@ -10,11 +10,11 @@ app.get('/api/articles', (req, res, next) => {
   const articles: Article[] = [
     {
       id: 141,
-      content: '첫번째 게시글'
+      content: '첫번째 게시글',
     },
     {
       id: 145,
-      content: '두번째 게시글'
+      content: '두번째 게시글',
     },
   ];
 
